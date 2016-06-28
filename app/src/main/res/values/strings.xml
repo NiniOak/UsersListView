@@ -1,0 +1,16 @@
+<resources>
+    <!-- Images to be displayed in list -->
+    <string name="app_name">Lab5</string>
+    <array name="listimages">
+        <item>@drawable/trump</item>
+    </array>
+
+    <!-- Text to be displayed in list -->
+    <string-array name="imagetext">
+        <item>Bacon</item>
+        <item>Ham</item>
+        <item>Turkey</item>
+        <item>Candy</item>
+        <item>Meatball</item>
+    </string-array>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- This shows the image-->
+    <ImageView
+        android:id="@+id/listimage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="layered"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        />
+    <TextView
+        android:id="@+id/listtext"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/listimage"
+        android:paddingBottom="15dp"
+        android:text="Some gibberish"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/minicontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignleft="@+id/listtext"
+        android:layout_below="@+id/listtext"
+        android:text="extra gibberish"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/content_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignleft="@+id/listtext"
+        android:layout_below="@+id/listtext"
+        android:text="extra gibberish"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>
